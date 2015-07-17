@@ -1,0 +1,13 @@
+--- jboss-eap-6.4/standalone/configuration/standalone.xml.original	2015-07-17 00:44:05.000000000 -0300
++++ jboss-eap-6.4/standalone/configuration/standalone.xml	2015-07-17 00:48:18.000000000 -0300
+@@ -29,6 +29,10 @@
+       <property name="org.kie.example" value="true"/>
+       <property name="org.jbpm.designer.perspective" value="full"/>
+       <property name="designerdataobjects" value="false"/>
++      <property name="org.uberfire.nio.git.dir" value="${jboss.home.dir}/bin"/>
++      <property name="org.uberfire.nio.git.ssh.cert.dir" value="${jboss.home.dir}/bin"/>
++      <property name="org.uberfire.metadata.index.dir" value="${jboss.home.dir}/bin"/>
++      <property name="org.guvnor.m2repo.dir" value="${jboss.home.dir}/bin"/>
+    </system-properties>
+    <management>
+       <security-realms>

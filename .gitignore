@@ -1,0 +1,7 @@
+ambiente.sh
+apache-maven-*
+jboss-eap-*.zip
+jboss-eap-*/
+!jboss-eap-6.4.files
+jboss-bpmsuite-*
+jboss-brms-*
